@@ -1,0 +1,5 @@
+const value = 
+//{"in":["Legendary",{"var":"LAST_10_DAY_PLAYER_SOLD"}]}
+//{"and":[{"in":[{"var":"KYC_COUNTRY"},["RU","IE","PL","PT","LV","KZ","CZ","DE","ID"]]},{">":[{"var":"WITHDRAW_AMOUNT_CENTS"},5000]},{"and":[{">":[{"var":"LAST_10_DAY_P2P_SOLD_AMOUNT_CENTS"},5000]},{"!":[{"or":[{"in":["Rare",{"var":"LAST_10_DAY_MOMENT_TIER_SOLD"}]},{"in":["Legendary",{"var":"LAST_10_DAY_MOMENT_TIER_SOLD"}]},{"in":["Genesis",{"var":"LAST_10_DAY_MOMENT_TIER_SOLD"}]}]}]},{"!":[{"or":[{"in":["LaMelo Ball",{"var":"LAST_10_DAY_PLAYER_SOLD"}]},{"in":["Luka Dončić",{"var":"LAST_10_DAY_PLAYER_SOLD"}]},{"in":["Zion Williamson",{"var":"LAST_10_DAY_PLAYER_SOLD"}]},{"in":["LeBron James",{"var":"LAST_10_DAY_PLAYER_SOLD"}]},{"in":["Steph Curry",{"var":"LAST_10_DAY_PLAYER_SOLD"}]},{"in":["A\\'ja Wilson",{"var":"LAST_10_DAY_PLAYER_SOLD"}]}]}]}]},{">":[{"var":"LAST_10_DAY_MIN_SERIAL_SOLD"},5000]}]}
+{"and":[{"==":[{"var":"WITHDRAW_AMOUNT_CENTS"},1337]},"IS_CONSIDERED_HIGH_RISK_CRYPTO_WITHDRAWAL"]};
+export default value;
